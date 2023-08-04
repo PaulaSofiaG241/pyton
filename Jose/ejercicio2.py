@@ -7,9 +7,9 @@ nota2 = float(input("Ingrese la nota 2: "))
 nota3 = float(input("Ingrese la nota 3: "))
 prom =(nota1 + nota2 + nota3)/3
 
-if prom >= 3.5 :
+if prom >= 3.5 and prom <= 5.0:
     print(f"Aprobado con un promedio de {prom} ")
-elif prom < 3.5:
+elif prom < 3.5 and prom >= 0:
     print(f"Reprobado con un promedio de {prom} ")
 else:
     print(f"Valores invalidos")
